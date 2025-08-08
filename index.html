@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SingZone Karaoke Club</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+
+        header {
+            background-color: #e91e63;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('9959283.jpg') no-repeat center center / cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 1.5rem;
+            font-size: 2rem;
+            border-radius: 8px;
+        }
+
+        .section {
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #ffcc00;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+        }
+
+        .cta-button {
+            background-color: #ffcc00;
+            color: #000;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #e6b800;
+        }
+
+        blockquote {
+            font-style: italic;
+            margin: 1.5rem 0;
+            border-left: 4px solid #e91e63;
+            padding-left: 1rem;
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            padding: 2rem 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #aaa;
+            border-top: 2px solid #e91e63;
+        }
+
+        footer p {
+            margin: 0.3rem 0;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.75rem;
+                margin-top: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2EC9KMBLMD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2EC9KMBLMD');
+</script>
+    
+<body>
+
+    <header>
+        <a href="index.html" style="text-decoration: none; color: white;">
+            <h1>SingZone</h1>
+        </a>
+        <nav>
+            <a href="#events">Events</a>
+            <a href="#book">Book Now</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Sing Your Heart Out at SingZone!</h2>
+    </section>
+
+    <section class="section" id="events">
+        <h2>🎤 Upcoming Karaoke Events</h2>
+        <ul>
+            <li><strong>Vocal Training</strong> – Wednesdays at 7 PM <a href="booking.php">[Book Session]</a></li>
+            <li><strong>Karaoke Nights</strong> – Mon to Fri at 8 PM</li>
+            <li><strong>Open Mic</strong> – Mon to Fri at 6 PM <a href="booking.php">[Book Session]</a></li>
+        </ul>
+    </section>
+
+    <section class="section" id="book">
+        <h2>🎶 Book Your Private Room</h2>
+        <p>Want to enjoy karaoke with your friends in a private setting? Book your slot today and create unforgettable
+            memories!</p>
+        <a class="cta-button" href="booking.php">Book Now</a>
+    </section>
+
+    <section class="section gallery">
+        <h2>📸 Gallery</h2>
+        <p>[Insert images of karaoke nights, performers, and club interiors]</p>
+    </section>
+
+    <section class="section testimonials">
+        <h2>💬 What People Say</h2>
+        <blockquote>"Best karaoke night in town! Great vibes and awesome sound system." – Priya R.</blockquote>
+        <blockquote>"Loved the private room experience! Staff was friendly too." – Rahul M.</blockquote>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SingZone Karaoke Club | Kalyan, India</p>
+        <p>🎤 Follow us on Instagram | 📍 Visit us at DB Chawk, Kalyan | ☎️ Call: +91 9167026555 or +91 9987044814</p>
+    </footer>
+
+</body>
+
+</html>
